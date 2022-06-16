@@ -1,9 +1,9 @@
 
-import './App.css';
+import './parallax.css';
 import {Parallax} from 'react-parallax';
-import moon from './images/moon.jpg';
-import star from './images/star.jpg';
-import uni from './images/uni.jpg';
+import moon from './../../images/moon.jpg';
+import star from './../../images/star.jpg';
+import uni from './../../images/uni.jpg';
 
 function Parallaxfile() {
   return (

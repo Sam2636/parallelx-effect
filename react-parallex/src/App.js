@@ -1,6 +1,7 @@
 
 import './App.css';
-import Parallaxfile from './parallaxflie';
+import Parallaxfile from './pages/parallax_effect/parallaxflie';
+import Animation from './pages/animation/animationfile';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Router>
       <Routes>
           <Route path="/app" element={<Parallaxfile/>} />
+          <Route path="/" element={<Animation/>} />
       </Routes>    
     </Router>
   );
