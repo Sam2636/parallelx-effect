@@ -8,14 +8,20 @@ function Animation() {
   return (
     // <div class="zoom"><img src='uni'></img>
     <>
-      <h1 class="hi"> Hello </h1>
+      <article class="hi">
+        <h1>Explore Effects</h1>
+        <p>#code and coders() Never Dies</p>
+      </article>
+      <div class="threeD">
+            welcome to the world
+      </div>
       <div class="hello">
         <div>
           <button class="glow-on-hover" onClick={() => {
             navigate('/app');
           }}
           >
-          go to app</button>
+          Parallax</button>
         </div>
         <div>
           <button class="glow-on-hover" onClick={() => {
